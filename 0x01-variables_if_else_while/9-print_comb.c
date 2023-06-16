@@ -7,23 +7,23 @@
  */
 int main(void)
 {
-    int digit = 0;
+int digit = 0;
 
-    while (digit < 10)
-    {
-        putchar(digit + '0'); /* Print the current digit */
+while (digit < 10)
+{
+putchar(digit + '0'); /* Print the current digit */
 
-        if (digit != 9)
-        {
-            putchar(','); /* Print the comma separator */
-            putchar(' '); /* Print the space separator */
-        }
-
-        digit++;
-    }
-
-    putchar('\n'); /* Print a newline character */
-
-    return 0;
-
+if (digit != 9)
+{
+putchar(',');
+putchar(' ');
 }
+
+digit++;
+}
+
+putchar('\n');
+
+return 0;
+}
+
