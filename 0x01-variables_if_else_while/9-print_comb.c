@@ -11,19 +11,19 @@ int main(void)
 
     while (digit < 10)
     {
-        putchar(digit + '0');  /* Print the current digit */
+        putchar(digit + '0'); /* Print the current digit */
 
-    if (digit != 9)
-    {
-        putchar(',');  /* Print the comma separator */
-        putchar(' ');  /* Print the space separator */
-    }
+        if (digit != 9)
+        {
+            putchar(','); /* Print the comma separator */
+            putchar(' '); /* Print the space separator */
+        }
 
         digit++;
     }
 
-        putchar('\n');  /* Print a newline character */
+    putchar('\n'); /* Print a newline character */
 
-    return (0);
-}
+    return 0;
+
 
