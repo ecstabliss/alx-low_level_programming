@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(void) {
+int main(void) 
+{
     int n;
     int lastDigit;
 
